@@ -1,48 +1,102 @@
 * {
     /* Свойства для сброса начальных стилей элементов */
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
 }
 
-body {}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+button{
+	border: none;
+	background-color: transparent;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	color:  #303030;
+}
 
 header {
     /* Стили для хедера */
+	 background-color: #2965F1;
+	 height: 70px;
 }
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	padding: 23px 0;
+	display: block;
 }
 
 .main-section {
     /* Стили для первой секции */
+	 background-color: #fafaff;
+	 padding: 60px 0;
+	 min-height: 100vh;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+	font-weight: 700;
+	font-size: 48px;
+	padding-bottom: 20px;
+	line-height: 58px;
+
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+	font-weight: 400;
+	font-size: 18px;
+	
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
+	 max-width: 715px;
 }
 
 
 .about-section {
     /* Стили для второй секции */
+	 background-color: #fff;
+	 padding: 100px 0;
 }
 
 select {
     /* Стили для выпадающего списка */
+	 width: 150px;
+	 height: 36px;
+	 padding: 0 12px;
+	 font-weight: 400;
+font-size: 16px;
+border: 1px solid rgba(48, 48, 48, 0.3);
+border-radius: 5px;
+background: url(./assets/image/ep_arrow-down.svg) no-repeat right 12px top 50%;
+appearance: none;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
+	 font-weight: 700;
+font-size: 24px;
+padding-bottom: 25px;
+
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+list-style-image: url(./assets/image/solar_map-arrow-up-bold.svg);
+margin: 0 0 0 20px;
+
 }
 
 .books-list {
