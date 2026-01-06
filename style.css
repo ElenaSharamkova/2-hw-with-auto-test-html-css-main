@@ -94,7 +94,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
 list-style-image: url(./assets/image/solar_map-arrow-up-bold.svg);
-padding-left: 20px;
+padding: 0 20px;
 
 
 }
